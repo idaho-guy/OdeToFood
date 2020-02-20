@@ -3,3 +3,4 @@
 * Populate a list of restaurants and make available on [page](https://github.com/idaho-guy/OdeToFood/commit/e8e4992ad9173d025f96274302b525fba5dcb931)
 * Add [Search](https://github.com/idaho-guy/OdeToFood/commit/a1472844ba78825e6a9d9b511ba8bdaa6c327f93) form to page
 * Persist searchTerm with [asp-for](https://github.com/idaho-guy/OdeToFood/commit/f0e486158db02eed4bded3fbf589aa88fe325a7c)
+* Link to details page using  [asp-page and asp-route-restaurantId](https://github.com/idaho-guy/OdeToFood/commit/72990af7c42da0939accd45b110b818c0b05ab03)
