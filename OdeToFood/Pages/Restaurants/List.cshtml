@@ -3,7 +3,19 @@
 @{
 }
 <h1>Restaurants</h1>
-
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" value="" name="searchTerm"/>
+            <span class="input-group-button">
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-search">Submit</i>
+                </button>
+                
+            </span>
+        </div>
+    </div>
+</form>
 <table class="table">
     @foreach(var r in Model.Restaurants)
     {
