@@ -5,3 +5,4 @@
 * Persist searchTerm with [asp-for](https://github.com/idaho-guy/OdeToFood/commit/f0e486158db02eed4bded3fbf589aa88fe325a7c)
 * Link to details page using query string  [asp-page and asp-route-restaurantId](https://github.com/idaho-guy/OdeToFood/commit/72990af7c42da0939accd45b110b818c0b05ab03)
 * Access details page using path info with only [1 change](https://github.com/idaho-guy/OdeToFood/commit/8d8b11466494245ca0f469fad891f69da6a43f2e)
+* Update logic around details page to return [error page](https://github.com/idaho-guy/OdeToFood/commit/c8bb00d550944f3f61119192840859b45ced2d22) if no restaurant exists
