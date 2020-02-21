@@ -20,3 +20,16 @@
 ```
 dotnet tool install --global dotnet-ef --version 3.1.0
 ```
+
+### Db info
+```
+Mark-Sage's-MacBook-Pro:OdeToFood.Data marksage$ dotnet ef dbcontext info -s ../OdeToFood/OdeToFood.csproj 
+Build started...
+Build succeeded.
+The EF Core tools version '3.1.1' is older than that of the runtime '3.1.2'. Update the tools for the latest features and bug fixes.
+Provider name: Pomelo.EntityFrameworkCore.MySql
+Database name: OdeToFood
+Data source: localhost
+Options: MaxPoolSize=128
+Mark-Sage's-MacBook-Pro:OdeToFood.Data marksage$ 
+```
