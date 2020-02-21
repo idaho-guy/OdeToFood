@@ -51,3 +51,17 @@ Done.
 ```
 
 [Implement Entity Framework in MySQL](https://github.com/idaho-guy/OdeToFood/commit/6e09a7b1d8beaf2f99f59da8920c33fae5c5f81b)
+
+### Layout
+You can add sections in the _Layout.cshtml in the following manner
+```
+<footer>
+  @RenderSection("footer", required: false)
+</footer>
+```
+Pages that choose to implement would do the following:
+```
+@section footer {
+  <div>@Model.Message</div>
+}
+```
