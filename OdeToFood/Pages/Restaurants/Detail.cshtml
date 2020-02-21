@@ -14,4 +14,8 @@
     Cusine: @Model.Restaurant.Cusine
 </div>
 
+@if(Model.Message != null)
+{
+    <div>@Model.Message</div>
+}
 <a asp-page="./List">All Restaurants</a>
