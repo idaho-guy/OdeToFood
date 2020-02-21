@@ -11,3 +11,4 @@
 * [Validation](https://github.com/idaho-guy/OdeToFood/commit/77bfb1692b68ee40f78a81126e458b707b325eb2) in model and page display
 * [Redirect](https://github.com/idaho-guy/OdeToFood/commit/8a812fb356c0006ff0f019d35e57eb1c838f9cdd) after POST so refreshing browser won't initiate a new form submission
 * Make [restaurantId](https://github.com/idaho-guy/OdeToFood/commit/646d3a2188f5ef6ba5e7fcc4ae903f1d5a0998e3) nullable so we can use the Edit page to create new Restaurants
+* Service [updates](https://github.com/idaho-guy/OdeToFood/commit/bad80e3d77dfdcd707bdf55c4b050ded586d4126) to add new Restaurant
