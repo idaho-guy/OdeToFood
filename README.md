@@ -65,3 +65,7 @@ Pages that choose to implement would do the following:
   <div>@Model.Message</div>
 }
 ```
+
+* Delete logic using a custom [Layout](https://github.com/idaho-guy/OdeToFood/commit/87ae246cb40b75496d3dfba8c1ca8f9fdc621ca7)
+* Default Layout is contained in the [_ViewStart.cshtml](https://github.com/idaho-guy/OdeToFood/blob/master/OdeToFood/Pages/_ViewStart.cshtml) file
+* [_ViewImports.cshtml](https://github.com/idaho-guy/OdeToFood/blob/master/OdeToFood/Pages/_ViewImports.cshtml) contains using statments and other utilities
