@@ -70,3 +70,4 @@ Pages that choose to implement would do the following:
 * Default Layout is contained in the [_ViewStart.cshtml](https://github.com/idaho-guy/OdeToFood/blob/master/OdeToFood/Pages/_ViewStart.cshtml) file
 * [_ViewImports.cshtml](https://github.com/idaho-guy/OdeToFood/blob/master/OdeToFood/Pages/_ViewImports.cshtml) contains using statments and other utilities
 * [Partial view sample](https://github.com/idaho-guy/OdeToFood/commit/193f76486cad3845c4ebf19ba0aeafd16a2cc912)
+* Add [ViewComponent](https://github.com/idaho-guy/OdeToFood/commit/f85e3998adc2dae4dac17b0bd4e1e7bff6dd29ec) to _Layout.cshtml
