@@ -1,0 +1,26 @@
+﻿@page "{restaurantId:int}"
+@model EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+<h2>Editing @Model.Restaurant.Name</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Restaurant.Id" />
+    <div>
+        <label asp-for="Restaurant.Name"></label>
+        <input asp-for="Restaurant.Name" />
+    </div>
+    <div>
+        <label asp-for="Restaurant.Location"></label>
+        <input asp-for="Restaurant.Location" />
+    </div>
+    <div>
+        <label asp-for="Restaurant.Cusine"></label>
+        <select asp-for="Restaurant.Cusine"
+                asp-items="Model.Cusines">
+            
+        </select>
+    </div>
+    <button type="submit">Save</button>
+</form>
