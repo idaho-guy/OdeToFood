@@ -14,3 +14,4 @@
 * Service [updates](https://github.com/idaho-guy/OdeToFood/commit/bad80e3d77dfdcd707bdf55c4b050ded586d4126) to add new Restaurant
 * Update [Post](https://github.com/idaho-guy/OdeToFood/commit/ae0bc1a7967b995a8308165dd3598fb0cbf4b66d) method so it handles add and create
 * [TempData](https://github.com/idaho-guy/OdeToFood/commit/e588bc2b1bbdb0bdfcd7728d523fd7e95e19167e) example usage
+* Update to work with [EntityFramework](https://github.com/idaho-guy/OdeToFood/commit/796f39eea5d7d835172d35ab8a7a0204c97e49dc); also extend from [DBContext](https://github.com/idaho-guy/OdeToFood/commit/b95f37b05e9ef2c4ad3c905802725f7dffde3160)
