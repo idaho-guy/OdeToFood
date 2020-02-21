@@ -33,3 +33,11 @@ Data source: localhost
 Options: MaxPoolSize=128
 Mark-Sage's-MacBook-Pro:OdeToFood.Data marksage$ 
 ```
+### Add migration
+```
+Mark-Sage's-MacBook-Pro:OdeToFood.Data marksage$ dotnet ef migrations add initialcreate -s ../OdeToFood/OdeToFood.csproj 
+Build started...
+Build succeeded.
+The EF Core tools version '3.1.1' is older than that of the runtime '3.1.2'. Update the tools for the latest features and bug fixes.
+Done. To undo this action, use 'ef migrations remove'
+```
