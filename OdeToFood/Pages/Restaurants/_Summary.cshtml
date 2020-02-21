@@ -1,0 +1,15 @@
+﻿@using OdeToFood.Core;
+@model Restaurant
+
+         <td>
+            <a class="btn btn-lg" asp-page="./Detail"
+               asp-route-restaurantId="@Model.Id">detail</a>
+        </td>
+        <td>
+            <a class="btn btn-lg" asp-page="./Edit"
+               asp-route-restaurantId="@Model.Id">edit</a>
+        </td>
+        <td>
+            <a class="btn btn-lg" asp-page="./Delete"
+               asp-route-restaurantId="@Model.Id">delete</a>
+        </td>
