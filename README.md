@@ -49,3 +49,5 @@ Build succeeded.
 The EF Core tools version '3.1.1' is older than that of the runtime '3.1.2'. Update the tools for the latest features and bug fixes.
 Done.
 ```
+
+[Implement Entity Framework in MySQL](https://github.com/idaho-guy/OdeToFood/commit/6e09a7b1d8beaf2f99f59da8920c33fae5c5f81b)
