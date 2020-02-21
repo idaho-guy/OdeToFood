@@ -8,3 +8,4 @@
 * Update logic around details page to return [error page](https://github.com/idaho-guy/OdeToFood/commit/c8bb00d550944f3f61119192840859b45ced2d22) if no restaurant exists
 * Added EditForm [logic](https://github.com/idaho-guy/OdeToFood/commit/33d6aec1de25cb9aad62c82b8e4ace1dfffe51c3)
   * Using `BindProperty` attribiute for POST and added validations to the Restaurant Model
+* [Validation](https://github.com/idaho-guy/OdeToFood/commit/77bfb1692b68ee40f78a81126e458b707b325eb2) in model and page display
