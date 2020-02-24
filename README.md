@@ -16,7 +16,7 @@
 * [TempData](https://github.com/idaho-guy/OdeToFood/commit/e588bc2b1bbdb0bdfcd7728d523fd7e95e19167e) example usage
 * Update to work with [EntityFramework](https://github.com/idaho-guy/OdeToFood/commit/796f39eea5d7d835172d35ab8a7a0204c97e49dc); also extend from [DBContext](https://github.com/idaho-guy/OdeToFood/commit/b95f37b05e9ef2c4ad3c905802725f7dffde3160)
 * Add a [logger](https://github.com/idaho-guy/OdeToFood/commit/43cfe65abd759504e0981fb24594fe9e71db6735)
-* [Migrate](https://github.com/idaho-guy/OdeToFood/wiki/prod-db-migration) DB
+* [Publish and Migrate DB](https://github.com/idaho-guy/OdeToFood/wiki/prod-db-migration)
 
 ### Install dotnet ef tool
 ```
