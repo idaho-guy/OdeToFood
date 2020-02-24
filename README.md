@@ -16,6 +16,7 @@
 * [TempData](https://github.com/idaho-guy/OdeToFood/commit/e588bc2b1bbdb0bdfcd7728d523fd7e95e19167e) example usage
 * Update to work with [EntityFramework](https://github.com/idaho-guy/OdeToFood/commit/796f39eea5d7d835172d35ab8a7a0204c97e49dc); also extend from [DBContext](https://github.com/idaho-guy/OdeToFood/commit/b95f37b05e9ef2c4ad3c905802725f7dffde3160)
 * Add a [logger](https://github.com/idaho-guy/OdeToFood/commit/43cfe65abd759504e0981fb24594fe9e71db6735)
+* [Migrate]
 
 ### Install dotnet ef tool
 ```
@@ -75,3 +76,6 @@ Pages that choose to implement would do the following:
 
 ### Configuration on start-up
 [Defaults](https://github.com/dotnet/aspnetcore/blob/1480b998660d2f77d0605376eefab6a83474ce07/src/DefaultBuilder/src/WebHost.cs#L155) set in WebHost
+
+### DB Migration
+[DB Migration](generate-db-migration)
