@@ -71,3 +71,6 @@ Pages that choose to implement would do the following:
 * [_ViewImports.cshtml](https://github.com/idaho-guy/OdeToFood/blob/master/OdeToFood/Pages/_ViewImports.cshtml) contains using statments and other utilities
 * [Partial view sample](https://github.com/idaho-guy/OdeToFood/commit/193f76486cad3845c4ebf19ba0aeafd16a2cc912)
 * Add [ViewComponent](https://github.com/idaho-guy/OdeToFood/commit/f85e3998adc2dae4dac17b0bd4e1e7bff6dd29ec) to _Layout.cshtml
+
+### Configuration on start-up
+[Defaults](https://github.com/dotnet/aspnetcore/blob/1480b998660d2f77d0605376eefab6a83474ce07/src/DefaultBuilder/src/WebHost.cs#L155) set in WebHost
